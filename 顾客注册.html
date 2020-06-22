@@ -1,0 +1,27 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>用户注册</title>
+</head>
+<body>
+	<center>
+		<h1>欢迎新用户注册</h1>
+<form action="gukezhuce.php" method="post">
+    用户名*：<input type="username" name="username"> <br />
+    姓名*：<input type="realname" name="realname"> <br />
+    电话*：<input type="tel" name="tel"> <br />
+    密码*：<input type="password" name="password"> <br />
+    重复密码*：<input type="repassword" name="repassword"> <br />
+    请选择您的身份:
+		<select name="gp">
+			<option value="在校学生">在校学生</option>
+			<option value="在校教职工">在校教职工</option>
+			<option value="校外人员">校外人员</option>
+		</select><br/>
+    <tr><td>加*为必填项目</td></tr><br/>
+    <tr><td>本网站不会泄露您的个人信息，请放心注册，智慧订餐系统注您生活愉快！</td></tr>
+    <input type="submit" value="提交">
+</form>
+</center>
+</body>
+</html>

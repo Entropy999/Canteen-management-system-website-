@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录界面</title>
+    <style>
+       body{
+        background-image: url(800.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+       }
+    </style>
+</head>
+<body>
+<center>
+    <form action="gukedenglu.php" method="post">
+		<h1>欢迎来到智慧食堂点餐系统</h1>
+		<hr>
+		<br>
+		<br>
+			<legend>*顾客登录</legend>
+		<table>
+            账号:<input type="id" name="id"><br/>
+            密码:<input type="password" name="password"> <br/>
+        </table>
+            <input type="submit" value="提交">
+    </form>
+     <form action="顾客注册.html" method="post">
+            <input type="submit" value="新顾客注册">
+    </form> 
+
+    <form action="guanlidenglu.php" method="post">
+        <br> 
+        <br>
+        <br>
+        <legend>*管理员登录</legend>
+        <table>
+        	管理窗口号:<input type="wnum" name="wnum"><br/>
+            密码:<input type="password" name="password"><br/>
+        </table>
+            <input type="submit" value="提交">
+	</form>	
+    <form action="管理员注册.html" method="post">
+            <input type="submit" value="新管理员注册">
+    </form> 
+
+</center>
+</body>
+</html>
